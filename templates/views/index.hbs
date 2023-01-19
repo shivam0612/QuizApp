@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Index</title>
+        {{!-- Custom Links --}}
+        <link rel="stylesheet" href="../css/bootstrap.css">
+        <link rel="stylesheet" href="../custom_css/style.css">
+        <link rel="shortcut icon" href="../../public/images/gi.png"
+            type="image/x-icon">
+
+    </head>
+    <body>
+        {{>header}}
+
+        <div class="container-fluid">
+            <div class="row ml-3" style='text-align: center;height : 100vh'>
+                <div class='col-md-6 order-2 order-lg-1 d-flex
+                    justify-content-center flex-column'>
+                    <strong class='brand-name'>Lets <B>Q</B>uiz</strong>
+
+                    <h3>Take your Skill Test Now and Share Your Score 📚</h3>
+                    <div class='mt-1'>
+                        <a href="#page2" class='btn btn-outline-success
+                            get-started'>
+                            Get Started
+                        </a>
+                    </div>
+                </div>
+
+                <div class='col-md-6 pt-lg-0 order-2 order-lg-1 d-flex
+                    justify-content-center flex-column'>
+                    <img class='animated' src="../Images/Testimage1.svg"
+                        alt="home
+                        Image" width="90%" height="90%">
+                </div>
+
+            </div>
+
+            <div class="container-fluid">
+                <div class="row ml-3" style='text-align: center;height : 100vh'>
+                    <div class='col-md-6 pt-lg-0 order-2 order-lg-1 d-flex
+                        justify-content-center flex-column'>
+                        <img class='animated' src="../Images/Testimage2.svg"
+                            alt="home
+                            Image" width="60%" height="60%">
+                    </div>
+
+                    <div class='col-md-6 order-2 order-lg-1 d-flex
+                        justify-content-center flex-column' id="page2">
+                        <strong class='brand-name'>Analyze</strong>
+                        <h3>Check Your Socre Daily and analyze your mistakes 🏁</h3>
+                        <div class='mt-1'>
+                            <a href="#page3" class='btn btn-outline-secondary
+                                get-started'>
+                                Next
+                            </a>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="container-fluid">
+                    <div class="row ml-3" style='text-align: center;height :
+                        100vh'>
+                        <div class='col-md-6 order-2 order-lg-1 d-flex
+                            justify-content-center flex-column' id="page3">
+                            <strong><h1 style="text-align: center;">📚 Benefits
+                                </h1></strong>
+                            <h1></h1>
+                            <h5 style="text-align: center;">🎄 Help you to
+                                crack
+                                the
+                                interviews</h5>
+                            <h5 style="text-align: center;">🎄 Help you to
+                                gain
+                                Knowledge</h5>
+
+                            <div class='mt-3'>
+                                <a href="/createaccount" class='btn
+                                    btn-outline-primary
+                                    get-started'>
+                                    Click To Register
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class='col-md-6 pt-lg-0 order-2 order-lg-1
+                            d-flex
+                            justify-content-center flex-column'>
+                            <img class='animated'
+                                src="../Images/Testimage3.svg"
+                                alt="home
+                                Image" width="90%" height="90%">
+                        </div>
+
+                    </div>
+
+                    {{>footer}}
+                    <script src="../jq/jquery.js" type="text/javascript"></script>
+                    <script src="../js/bootstrap.js" type="text/javascript"></script>
+                </body>
+            </html>
