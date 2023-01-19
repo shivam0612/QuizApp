@@ -291,7 +291,7 @@ app.get("/logout", auth, async (req, res) => {
 })
 
 //server create
-app.listen(port, () => {
+app.listen('/.netlify/functions/api', () => {
     console.log(`server is running at port number ${port}`);
 })
 

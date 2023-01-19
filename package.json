@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/app.js -e js,hbs,css,ejs",
-    "start": "node src/app.js "
+    "dev": ".node_modules/.bin/netlify-lambda serve nodemon src/app.js -e js,hbs,css,ejs",
+    "start": ".node_modules/.bin/netlify-lambda build src node src/app.js "
+    
   },
   "author": "",
   "license": "ISC",
